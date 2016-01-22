@@ -1,0 +1,7 @@
+platform:ios,'7.0'
+pod 'RDVTabBarController', '~> 1.1.9'
+pod 'CYLTabBarController', '~> 1.0.5'
+pod 'MJRefresh', '~> 3.0.8'
+pod 'MBProgressHUD', '~> 0.9.2'
+pod 'Mantle', '~> 2.0.6'
+pod 'MJExtension', '~> 3.0.8'

@@ -1,0 +1,27 @@
+PODS:
+  - CYLTabBarController (1.0.5)
+  - Mantle (2.0.6):
+    - Mantle/extobjc (= 2.0.6)
+  - Mantle/extobjc (2.0.6)
+  - MBProgressHUD (0.9.2)
+  - MJExtension (3.0.10)
+  - MJRefresh (3.0.8)
+  - RDVTabBarController (1.1.9)
+
+DEPENDENCIES:
+  - CYLTabBarController (~> 1.0.5)
+  - Mantle (~> 2.0.6)
+  - MBProgressHUD (~> 0.9.2)
+  - MJExtension (~> 3.0.8)
+  - MJRefresh (~> 3.0.8)
+  - RDVTabBarController (~> 1.1.9)
+
+SPEC CHECKSUMS:
+  CYLTabBarController: c758aba2b1aac34be1c217047079ab11b4a18f4a
+  Mantle: 299966b00759634931699f69cb6a30b9239b944d
+  MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
+  MJExtension: d86aacb740c87519d20e3cca55b6fa4be6cc7548
+  MJRefresh: fafde8f18f4afd66b434331a9beb67a6c0264056
+  RDVTabBarController: 67794f7a7a37f8e32f046f85ac67d06ab92d624a
+
+COCOAPODS: 0.39.0
