@@ -39,6 +39,7 @@ static NSString * const kIdentifier_cell = @"PCOrderViewCell";
         UICollectionViewFlowLayout *layout = [[UICollectionViewFlowLayout alloc] init];
         layout.itemSize = CGSizeMake(self.view.frame.size.width, 60);
         layout.minimumLineSpacing = 10;
+        layout.minimumInteritemSpacing = 30;
         
         _collectionView = [[UICollectionView alloc] initWithFrame:self.view.bounds collectionViewLayout:layout];
         _collectionView.backgroundColor = [UIColor groupTableViewBackgroundColor];

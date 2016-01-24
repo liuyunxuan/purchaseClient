@@ -173,6 +173,12 @@
 		C9D90DE21C47954C00F8FDAB /* PurchaseClientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C9D90DE11C47954C00F8FDAB /* PurchaseClientTests.m */; };
 		C9D90DED1C47954C00F8FDAB /* PurchaseClientUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C9D90DEC1C47954C00F8FDAB /* PurchaseClientUITests.m */; };
 		C9D90DFD1C47959300F8FDAB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C9D90DFC1C47959300F8FDAB /* AppDelegate.m */; };
+		C9F1D1371C53C48800139670 /* PCMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9F1D1361C53C48800139670 /* PCMainViewController.m */; };
+		C9F1D13B1C53C4DF00139670 /* PCMainTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C9F1D13A1C53C4DF00139670 /* PCMainTableViewCell.m */; };
+		C9F1D4C21C53CA7600139670 /* NWBaseNetWorkService.m in Sources */ = {isa = PBXBuildFile; fileRef = C9F1D4C11C53CA7600139670 /* NWBaseNetWorkService.m */; };
+		C9F1D4CA1C5493E300139670 /* PCUserService.m in Sources */ = {isa = PBXBuildFile; fileRef = C9F1D4C91C5493E300139670 /* PCUserService.m */; };
+		C9F1D5531C54975800139670 /* PCSaleInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9F1D5521C54975800139670 /* PCSaleInfoViewController.m */; };
+		C9F1D5551C54977900139670 /* PCSaleInfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9F1D5541C54977900139670 /* PCSaleInfoViewController.xib */; };
 		CD80597DBE922BDAD54A3F84 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BD7BBB798D3C93490476A59C /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -544,6 +550,17 @@
 		C9D90DEE1C47954C00F8FDAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C9D90DFB1C47959300F8FDAB /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C9D90DFC1C47959300F8FDAB /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C9F1D1351C53C48800139670 /* PCMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCMainViewController.h; sourceTree = "<group>"; };
+		C9F1D1361C53C48800139670 /* PCMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCMainViewController.m; sourceTree = "<group>"; };
+		C9F1D1391C53C4DF00139670 /* PCMainTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCMainTableViewCell.h; sourceTree = "<group>"; };
+		C9F1D13A1C53C4DF00139670 /* PCMainTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCMainTableViewCell.m; sourceTree = "<group>"; };
+		C9F1D4C01C53CA7600139670 /* NWBaseNetWorkService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NWBaseNetWorkService.h; sourceTree = "<group>"; };
+		C9F1D4C11C53CA7600139670 /* NWBaseNetWorkService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NWBaseNetWorkService.m; sourceTree = "<group>"; };
+		C9F1D4C81C5493E300139670 /* PCUserService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCUserService.h; sourceTree = "<group>"; };
+		C9F1D4C91C5493E300139670 /* PCUserService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCUserService.m; sourceTree = "<group>"; };
+		C9F1D5511C54975800139670 /* PCSaleInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCSaleInfoViewController.h; sourceTree = "<group>"; };
+		C9F1D5521C54975800139670 /* PCSaleInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCSaleInfoViewController.m; sourceTree = "<group>"; };
+		C9F1D5541C54977900139670 /* PCSaleInfoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PCSaleInfoViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1282,6 +1299,9 @@
 		C99272271C4BBCAD00BBA67B /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				C9F1D1381C53C4C200139670 /* View */,
+				C9F1D1351C53C48800139670 /* PCMainViewController.h */,
+				C9F1D1361C53C48800139670 /* PCMainViewController.m */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -1450,6 +1470,7 @@
 		C9D90E381C47964D00F8FDAB /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				C9F1D4BF1C53CA2600139670 /* NetWorkModel */,
 				C9AF82C81C52039C00519691 /* LocalModel */,
 			);
 			path = Model;
@@ -1465,6 +1486,8 @@
 		C9D90E3A1C47967F00F8FDAB /* BussinessFuction */ = {
 			isa = PBXGroup;
 			children = (
+				C9F1D5561C549A5D00139670 /* Tenderer */,
+				C9F1D4CB1C54970200139670 /* Common */,
 				C9AF82861C51FFD800519691 /* LoginAndRegister */,
 				C99272291C4BBCCA00BBA67B /* ShoppingCar */,
 				C99272281C4BBCB900BBA67B /* Mine */,
@@ -1478,6 +1501,91 @@
 			children = (
 			);
 			path = MainFrame;
+			sourceTree = "<group>";
+		};
+		C9F1D1381C53C4C200139670 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C9F1D1391C53C4DF00139670 /* PCMainTableViewCell.h */,
+				C9F1D13A1C53C4DF00139670 /* PCMainTableViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C9F1D4BF1C53CA2600139670 /* NetWorkModel */ = {
+			isa = PBXGroup;
+			children = (
+				C9F1D4C51C53CAD700139670 /* Tenderer */,
+				C9F1D4C41C53CAA200139670 /* Purchase */,
+				C9F1D4C31C53CA8A00139670 /* User */,
+				C9F1D4C01C53CA7600139670 /* NWBaseNetWorkService.h */,
+				C9F1D4C11C53CA7600139670 /* NWBaseNetWorkService.m */,
+			);
+			path = NetWorkModel;
+			sourceTree = "<group>";
+		};
+		C9F1D4C31C53CA8A00139670 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				C9F1D4C71C53CB0300139670 /* Service */,
+				C9F1D4C61C53CAF800139670 /* DataObject */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		C9F1D4C41C53CAA200139670 /* Purchase */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Purchase;
+			sourceTree = "<group>";
+		};
+		C9F1D4C51C53CAD700139670 /* Tenderer */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tenderer;
+			sourceTree = "<group>";
+		};
+		C9F1D4C61C53CAF800139670 /* DataObject */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DataObject;
+			sourceTree = "<group>";
+		};
+		C9F1D4C71C53CB0300139670 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				C9F1D4C81C5493E300139670 /* PCUserService.h */,
+				C9F1D4C91C5493E300139670 /* PCUserService.m */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		C9F1D4CB1C54970200139670 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				C9F1D5501C54973100139670 /* SaleInfo */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		C9F1D5501C54973100139670 /* SaleInfo */ = {
+			isa = PBXGroup;
+			children = (
+				C9F1D5511C54975800139670 /* PCSaleInfoViewController.h */,
+				C9F1D5521C54975800139670 /* PCSaleInfoViewController.m */,
+				C9F1D5541C54977900139670 /* PCSaleInfoViewController.xib */,
+			);
+			path = SaleInfo;
+			sourceTree = "<group>";
+		};
+		C9F1D5561C549A5D00139670 /* Tenderer */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tenderer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1586,6 +1694,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9F1D5551C54977900139670 /* PCSaleInfoViewController.xib in Resources */,
 				C99271D91C4BBA7B00BBA67B /* Info.plist in Resources */,
 				C9D90DD71C47954C00F8FDAB /* LaunchScreen.storyboard in Resources */,
 				C9AF82D21C5203E200519691 /* NWRegisterViewController.xib in Resources */,
@@ -1712,6 +1821,7 @@
 				C99271D31C4BBA7B00BBA67B /* UITextField+BlocksKit.m in Sources */,
 				C99272051C4BBA7B00BBA67B /* UIImageView+WebCache.m in Sources */,
 				C99271D71C4BBA7B00BBA67B /* ScrollViewFrameAccessor.m in Sources */,
+				C9F1D4CA1C5493E300139670 /* PCUserService.m in Sources */,
 				C99271881C4BBA7B00BBA67B /* KKPHttpDataPaser.m in Sources */,
 				C99271771C4BBA7B00BBA67B /* NSMutableArray+KKPaddtion.m in Sources */,
 				C99271E11C4BBA7B00BBA67B /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
@@ -1720,6 +1830,7 @@
 				C992718E1C4BBA7B00BBA67B /* KKPDataViewController.m in Sources */,
 				C99271A01C4BBA7B00BBA67B /* KKPImagePickerNoAccessVC.m in Sources */,
 				C99272231C4BBC2D00BBA67B /* NWNaviTabBarItem.m in Sources */,
+				C9F1D5531C54975800139670 /* PCSaleInfoViewController.m in Sources */,
 				C99271BE1C4BBA7B00BBA67B /* NSMutableSet+BlocksKit.m in Sources */,
 				C99271DE1C4BBA7B00BBA67B /* MASViewAttribute.m in Sources */,
 				C99271ED1C4BBA7B00BBA67B /* CAAnimation+Blocks.m in Sources */,
@@ -1739,6 +1850,7 @@
 				C99272221C4BBC2D00BBA67B /* NWNaviTabBar.m in Sources */,
 				C99271BC1C4BBA7B00BBA67B /* NSMutableIndexSet+BlocksKit.m in Sources */,
 				C99271CF1C4BBA7B00BBA67B /* UIControl+BlocksKit.m in Sources */,
+				C9F1D1371C53C48800139670 /* PCMainViewController.m in Sources */,
 				C99271B61C4BBA7B00BBA67B /* NSDictionary+BlocksKit.m in Sources */,
 				C99271FD1C4BBA7B00BBA67B /* SDWebImageManager.m in Sources */,
 				C992719D1C4BBA7B00BBA67B /* KKPImageGalleryVC.m in Sources */,
@@ -1772,6 +1884,7 @@
 				C99271F41C4BBA7B00BBA67B /* SCPullRefreshView.m in Sources */,
 				C99271DB1C4BBA7B00BBA67B /* MASConstraint.m in Sources */,
 				C99271AB1C4BBA7B00BBA67B /* KKPHobbyTagTableViewCell.m in Sources */,
+				C9F1D4C21C53CA7600139670 /* NWBaseNetWorkService.m in Sources */,
 				C99271BF1C4BBA7B00BBA67B /* NSObject+BKAssociatedObjects.m in Sources */,
 				C99271F81C4BBA7B00BBA67B /* SDImageCache.m in Sources */,
 				C99271CB1C4BBA7B00BBA67B /* QLPreviewController+BlocksKit.m in Sources */,
@@ -1790,6 +1903,7 @@
 				C99271C61C4BBA7B00BBA67B /* A2DynamicDelegate.m in Sources */,
 				C99271951C4BBA7B00BBA67B /* KKPAlertAction.m in Sources */,
 				C99271B11C4BBA7B00BBA67B /* AFURLConnectionOperation.m in Sources */,
+				C9F1D13B1C53C4DF00139670 /* PCMainTableViewCell.m in Sources */,
 				C99271C91C4BBA7B00BBA67B /* NSObject+A2BlockDelegate.m in Sources */,
 				C99271D01C4BBA7B00BBA67B /* UIGestureRecognizer+BlocksKit.m in Sources */,
 				C99272241C4BBC2D00BBA67B /* NWBaseRefreshViewController.m in Sources */,
